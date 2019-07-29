@@ -166,5 +166,4 @@ class API():
         Img= skimage.io.imread(base)
         if save== True:
             skimage.io.imsave(fname= "Sat/satellite Lat:{} Long:{}.png".format(clat, clong), arr= Img)
-        #AIzaSyA7mOyo5rgqI8-vWa6IKkgOvlIpt3Mn6Tg
         return Img
