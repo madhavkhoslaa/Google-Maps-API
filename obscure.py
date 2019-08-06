@@ -9,7 +9,7 @@ from tqdm import tqdm
 import numpy as np
 import random
 #1 meter= 0.00000905 didderence in lattitudes
-query_points_dir= "/Users/madhav/Documents/RES/Todo/TODO3/query_fragments"
+query_points_dir= ""
 key_list= ["keeeeeeeyyyssss"]
 key_index= 0
 os.chdir(query_points_dir)
