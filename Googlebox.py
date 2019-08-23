@@ -184,5 +184,4 @@ class API():
             skimage.io.imsave(
                 fname="satellite Lat:{} Long:{}.png".format(
                     clat, clong), arr=Img)
-        # AIzaSyA7mOyo5rgqI8-vWa6IKkgOvlIpt3Mn6Tg
         return Img
